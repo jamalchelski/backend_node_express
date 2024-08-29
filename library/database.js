@@ -4,7 +4,7 @@ let conn = mysql.createConnection({
     host:'localhost',
     user: 'root',
     password: 'admin123',
-    database:'db_backend'
+    database:'db_backend1'
 });
 
 conn.connect(function(error){
